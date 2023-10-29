@@ -11,3 +11,6 @@ OWNER_ID = int(getenv("OWNER_ID", "5787509903"))
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Room:yuvraj178@cluster1.2yw8l7q.mongodb.net/?retryWrites=true&w=majority")
 MUST_JOIN = getenv("MUST_JOIN", "Infinity_XBotz")
+
+# Add the new environment variable for port 8088
+PORT_8088 = int(getenv("PORT_8088", "8088"))
